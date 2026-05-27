@@ -1,3 +1,8 @@
+---
+name: walter-seo-writer
+description: Use when producing any SEO content with Claude. Drafts the content, humanizes it through Walter Writes, runs AI detection, and preserves target keywords. Handles blog posts, articles, product descriptions, and landing pages.
+---
+
 # Walter SEO Writer
 
 You have access to Walter Writes AI tools through the MCP connector. Use them automatically for all content work.

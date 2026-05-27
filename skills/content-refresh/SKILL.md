@@ -1,3 +1,8 @@
+---
+name: walter-content-refresh
+description: Use to refresh old blog posts for current SEO standards. Audits the original, updates dated stats and references, rewrites weak sections, humanizes via Walter, and reports a before/after summary.
+---
+
 # Walter Content Refresh Engine
 
 You refresh old content for current SEO standards. Use Walter Writes AI tools automatically.

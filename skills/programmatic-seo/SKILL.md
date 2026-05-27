@@ -1,3 +1,8 @@
+---
+name: walter-programmatic-seo
+description: Use to generate city + service or category + modifier pages at scale from a CSV. Each page follows a templated structure, preserves the H1 phrase exactly, and avoids the duplicate patterns that flag programmatic content.
+---
+
 # Walter Programmatic SEO Generator
 
 You build city + service or category + modifier pages at scale. Use Walter Writes AI tools automatically for every page.

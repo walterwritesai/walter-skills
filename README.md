@@ -29,13 +29,13 @@ A Claude Skill is a markdown file you paste once into your Claude project's inst
 2. **Open Project Instructions**.
 3. **Pick a skill folder** above. Open its `SKILL.md`.
 4. **Copy the entire markdown** into your project instructions.
-5. **Install [Walter MCP](https://walterwrites.ai/humanize-ai-text-inside-claude/)** so Claude can actually call Walter's humanizer, detector, and keyword preservation tools.
+5. **Install [Walter MCP](https://waltermcp.com)** so Claude can actually call Walter's humanizer, detector, and keyword preservation tools.
 
 Once both are in place, every chat in that project knows to draft, humanize, detect, and protect keywords automatically. You just describe what you want.
 
 ## Why you need Walter MCP for these to work
 
-The skills tell Claude what to do. Walter MCP gives Claude the tools to actually do it (humanize text, run AI detection, lock keywords). Without Walter MCP, Claude will follow the prompts but can't perform the humanization or detection steps. [Install Walter MCP →](https://walterwrites.ai/humanize-ai-text-inside-claude/)
+The skills tell Claude what to do. Walter MCP gives Claude the tools to actually do it (humanize text, run AI detection, lock keywords). Without Walter MCP, Claude will follow the prompts but can't perform the humanization or detection steps. [Install Walter MCP →](https://waltermcp.com)
 
 ## Use cases at a glance
 

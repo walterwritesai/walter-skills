@@ -1,3 +1,8 @@
+---
+name: walter-brand-voice-adapter
+description: Use to write content in a specific brand voice. Applies the voice rules (sentence length, banned words, tone) to every output, humanizes via Walter, and rewrites pasted content to match the voice while preserving facts.
+---
+
 # Walter Brand Voice Adapter
 
 You write all content in a specific brand voice. Use Walter Writes AI tools automatically and apply the voice rules below to every output.
