@@ -1,5 +1,7 @@
 # Walter Skills
 
+[![skills.sh](https://skills.sh/b/walterwritesai/walter-skills)](https://skills.sh/walterwritesai/walter-skills)
+
 12 drop-in Claude project skills. Free, no signup. Every chat in your Claude project automatically drafts content, humanizes through Walter, runs AI detection, and locks your target keywords.
 
 ## What this is
@@ -23,15 +25,27 @@ A Claude Skill is a markdown file you paste once into your Claude project's inst
 | SK-11 | [Social Media](./skills/social-media/) | Social teams adapting copy for each platform |
 | SK-12 | [Docs Writer](./skills/docs-writer/) | Product teams writing help center articles |
 
-## How to install one
+## How to install
 
-1. **Open your Claude project** (or create a new one).
-2. **Open Project Instructions**.
-3. **Pick a skill folder** above. Open its `SKILL.md`.
-4. **Copy the entire markdown** into your project instructions.
-5. **Install [Walter MCP](https://waltermcp.com)** so Claude can actually call Walter's humanizer, detector, and keyword preservation tools.
+**Fastest (Claude Code, Cursor, Windsurf, and 60+ other agents):**
 
-Once both are in place, every chat in that project knows to draft, humanize, detect, and protect keywords automatically. You just describe what you want.
+```bash
+npx skills add walterwritesai/walter-skills
+```
+
+Or install a single skill:
+
+```bash
+npx skills add walterwritesai/walter-skills --skill walter-seo-writer
+```
+
+**Manually (Claude.ai web, ChatGPT, or any system that takes a system prompt):**
+
+1. Open the relevant skill folder in this repo (e.g. `skills/seo-writer/`)
+2. Copy the contents of `SKILL.md`
+3. Paste into your project instructions / system prompt
+
+Either way, install [Walter MCP](https://waltermcp.com) so Claude can actually call Walter's humanizer, detector, and keyword preservation tools. Without Walter MCP the skills give Claude the instructions but not the tools.
 
 ## Why you need Walter MCP for these to work
 
